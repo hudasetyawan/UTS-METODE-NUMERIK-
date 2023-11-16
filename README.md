@@ -73,26 +73,23 @@ Jadi, penyelesaian persamaan linier ini adalah x = 6.
 # Solusi
 Persamaan linear dapat menyelesaikan secara langsung tanpa menggunakan metode iteratif karena ini adalah persamaan linear sederhana. Berikut adalah implementasi dalam Python:
 def solve_linear_equation(coef, constant):
-
 def solve_linear_equation(coef, constant):
 #Persamaan linear: coef * x = constant
 x = constant / coef
 return x
 
-#koefisien persamaan
+#Koefisien persamaan
 coef = 2
 
-#konstanta persamaan
+#Konstanta persamaan
 constant = 8 + 4  # Sisi kanan persamaan dipindahkan ke sisi kiri dengan menggabungkan konstanta
 
 #Panggil fungsi untuk menyelesaikan persamaan linear
 solusi = solve_linear_equation(coef, constant)
 
-#cetak solusi
+#Cetak solusi
 print(f"Solusi persamaan 2x - 4 = 8 adalah x = {solusi}")
-keluaran:
 
-Solusi persamaan 2x - 4 = 8 adalah x = 6.0
 
 keluaran :
 
