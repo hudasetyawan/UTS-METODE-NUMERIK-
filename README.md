@@ -45,12 +45,12 @@ def metode_newton_raphson(x0, toleransi, maks_iter):
 	  print('Iterasi maksimum tercapai. Metode Newton-Raphson tidak konvergen.')
 	  return None
 
-# Tentukan nilai awal, toleransi, dan maksimum iterasi
+#Tentukan nilai awal, toleransi, dan maksimum iterasi
 x0 = 1.0
 toleransi = 1e-6
 maks_iter = 100
 
-# Panggil fungsi untuk metode Newton-Raphson
+#Panggil fungsi untuk metode Newton-Raphson
 solusi = metode_newton_raphson(x0, toleransi, maks_iter)
 
 keluaran:
@@ -59,7 +59,8 @@ Iterasi 2: x = 1.3478260869565217
 Iterasi 3: x = 1.325200398950907 
 Iterasi 4: x = 1.3247181739990537 
 Iterasi 5: x = 1.3247179572447898 
-Solusi ditemukan setelah 5 iterasi: x = 1.3247179572447898 
+Solusi ditemukan setelah 5 iterasi: x = 1.3247179572447898
+
 # 2. Penyederhanaan Persamaan Linier
 Persamaan linier yang diberikan adalah:
 2x - 4 = 8
@@ -67,23 +68,25 @@ Persamaan linier yang diberikan adalah:
 2x = 12
 x = 6
 Jadi, penyelesaian persamaan linier ini adalah x = 6.
+
 # Solusi
 Persamaan linear dapat menyelesaikan secara langsung tanpa menggunakan metode iteratif karena ini adalah persamaan linear sederhana. Berikut adalah implementasi dalam Python:
 def solve_linear_equation(coef, constant):
-# Persamaan linear: coef * x = constant
+
+#Persamaan linear: coef * x = constant
 x = constant / coef
 return x
 
-# Koefisien persamaan
+#Koefisien persamaan
 coef = 2
 
-# Konstanta persamaan
+#Konstanta persamaan
 constant = 8 + 4  # Sisi kanan persamaan dipindahkan ke sisi kiri dengan menggabungkan konstanta
 
-# Panggil fungsi untuk menyelesaikan persamaan linear
+#Panggil fungsi untuk menyelesaikan persamaan linear
 solusi = solve_linear_equation(coef, constant)
 
-# Cetak solusi
+#Cetak solusi
 print(f"Solusi persamaan 2x - 4 = 8 adalah x = {solusi}")
 
 keluaran:
