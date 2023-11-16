@@ -1,4 +1,4 @@
-# UTS-METODE-NUMERIK-
+p# UTS-METODE-NUMERIK-
 Dosen Pengampuh : Anggay Luri Pramana,M.Kom
 # Penulis :
  Nama : M Huda Noor Setyawan
@@ -72,6 +72,7 @@ Jadi, penyelesaian persamaan linier ini adalah x = 6.
 
 # Solusi
 Persamaan linear dapat menyelesaikan secara langsung tanpa menggunakan metode iteratif karena ini adalah persamaan linear sederhana. Berikut adalah implementasi dalam Python:
+
 def solve_linear_equation(coef, constant):
 def solve_linear_equation(coef, constant):
 #Persamaan linear: coef * x = constant
